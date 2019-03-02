@@ -1,0 +1,48 @@
+.BuilderControl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem;
+
+}
+.BuilderControl button{
+    display: block;
+    width: 5rem;
+    border: 2px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    margin-left: 2rem;
+
+    height: 2rem;
+
+}
+.Burger-price{
+    color:white;
+    font-size: 42px;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.BuilderControl .More{
+    background: linear-gradient(#228c1d, #91ce50);
+    color: white;
+
+}
+.BuilderControl .Less{
+    background: linear-gradient(#f4d004, #d6bb22);
+    color: white;
+}
+.BuilderControl .Less:hover,.BuilderControl .Less:active{
+   background-color: #DAA972;
+   color: white;
+}
+.BuilderControl .More:hover,.BuilderControl .More:active{
+    background-color: #99703F;
+    color: white;
+ }
+ button:disabled,
+button[disabled]{
+
+  cursor: not-allowed;
+}
+

@@ -1,0 +1,31 @@
+.Order{
+    display:flex;
+}
+.Order button{
+    display: flex;
+    width: 5rem;
+    border: 2px solid #AA6817;
+    cursor: pointer;
+    outline: none;
+    margin-left: 2rem;
+
+    height: 2rem;
+
+}
+.Order .Checkout{
+    background: linear-gradient(#228c1d, #91ce50);
+    color: white;
+
+}
+.Order .Cancel{
+    background: linear-gradient(#f4d004, #d6bb22);
+    color: white;
+}
+.Order .Cancel:hover,.Order .Cancel:active{
+   background-color: #DAA972;
+   color: white;
+}
+.Order .Checkout:hover,.Order .Checkout:active{
+    background-color: #99703F;
+    color: white;
+ }

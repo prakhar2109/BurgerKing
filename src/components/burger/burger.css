@@ -1,0 +1,14 @@
+.Burger{
+    width: 25%;
+    margin: auto;
+    height: 250px;
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    overflow-y: scroll;
+  
+}
+/* .Burger::-webkit-scrollbar { 
+    display: none; 
+} */
